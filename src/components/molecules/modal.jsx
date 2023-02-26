@@ -3,14 +3,13 @@ import { Dialog } from "primereact/dialog";
 import ButtonBlue from "../atomic/ButtonBlue";
 import ButtonRed from "../atomic/ButtonRed";
 
-const Modal = (params) => {
+const Modal = () => {
   const [visible, setVisible] = useState(false);
 
   const stateModal = (stateNow) => {
     setVisible(stateNow);
   };
 
-  console.log("estamos", params.mostrar);
   return (
     <>
       <ButtonBlue stateModal={stateModal} />
