@@ -1,26 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-
+import ButtonBlue from "../atomic/ButtonBlue";
+import ButtonRed from "../atomic/ButtonRed";
 
 const Modal = (params) => {
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    estado()
-  }, [params])
+  const stateModal = (stateNow) => {
+    setVisible(stateNow);
+  };
 
-  
-  const estado = () => {
-    setVisible(params.mostrar)
-  }
-
-
-  
-
-  console.log("estamos", params.mostrar );
+  console.log("estamos", params.mostrar);
   return (
     <>
-
+      <ButtonBlue stateModal={stateModal} />
+      <ButtonRed stateModal={stateModal} />
       <Dialog
         header="Header"
         visible={visible}

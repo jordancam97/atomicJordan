@@ -1,21 +1,12 @@
-import React, { useState } from 'react'
-import { Button } from 'primereact/button';
-import Modal from '../molecules/Modal';
+import React, { useState } from "react";
+import { Button } from "primereact/button";
 
-
-const ButtonBlue = () => {
-  const [mo, setMo] = useState(false)
-  const datos = () => {
-    setMo(true)
-  };
-  console.log("que,", mo);
-
+const ButtonBlue = ({ stateModal }) => {
   return (
     <>
-    <Button label="Info" severity="info" onClick={() => datos()} />
-    <Modal mostrar={mo}/>
+      <Button label="Info" severity="info" onClick={() => stateModal(true)} />
     </>
-  )
-}
+  );
+};
 
-export default ButtonBlue
+export default ButtonBlue;
