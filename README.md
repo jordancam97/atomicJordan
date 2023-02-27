@@ -1,5 +1,5 @@
 # Pasos para ejecutar el proyecto
-| Comandos | Desc |
+| Comandos | Descripción |
 | ---- | ---- |
 |1. `$ git clone https://github.com/jordancam97/atomicJordan.git`| Clona el repositorio |
 |2. `Abrir el repositorio con el editor por defecto en su computador`| Abre el repositorio clonado `atomicJordan` |
