@@ -3,15 +3,15 @@ import { Dialog } from "primereact/dialog";
 import ButtonBlue from "../atomic/ButtonBlue";
 import ButtonRed from "../atomic/ButtonRed";
 
-const Modal = ({colorSelect}) => {
+const Modal = ({ colorSelect }) => {
   const [visible, setVisible] = useState(false);
-  const [colorModal, setColorModla] = useState()
+  const [colorModal, setColorModal] = useState();
 
   //saves the state of the modal and the color of the clicked button.
   const stateModal = (stateNow, colorNow) => {
     setVisible(stateNow);
     colorSelect(colorNow.toString());
-    setColorModla(colorNow.toString())
+    setColorModal(colorNow.toString());
   };
 
   return (

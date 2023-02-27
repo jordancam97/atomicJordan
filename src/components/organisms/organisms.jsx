@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Modal from "../molecules/Modal";
 
-const Organisms = () => {
-  const [color, setColore] = useState("");
+const Organisms = ({ colorListen }) => {
+  const [color, setColor] = useState("");
 
   //listen to the color of the button.
   const colorSelect = (colorFinal) => {
-    setColore(colorFinal);
+    setColor(colorFinal);
+    colorListen(colorFinal);
   };
 
   //change the color of the text according to the button.
