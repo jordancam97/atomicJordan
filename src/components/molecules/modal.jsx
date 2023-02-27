@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-import ButtonBlue from "../atomic/ButtonBlue";
-import ButtonRed from "../atomic/ButtonRed";
+import ButtonBlue from "../atomic/buttonBlue";
+import ButtonRed from "../atomic/buttonRed";
 
 const Modal = ({ colorSelect }) => {
   const [visible, setVisible] = useState(false);

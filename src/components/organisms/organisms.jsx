@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "../molecules/Modal";
+import Modal from "../molecules/modal";
 
 const Organisms = ({ colorListen }) => {
   const [color, setColor] = useState("");

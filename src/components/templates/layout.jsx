@@ -1,5 +1,5 @@
 import React from "react";
-import Organisms from "../organisms/Organisms";
+import Organisms from "../organisms/organisms";
 
 const Layout = ({ colorPages }) => {
   //listen to the color of the button.
