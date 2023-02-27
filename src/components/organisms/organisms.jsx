@@ -13,11 +13,11 @@ const Organisms = ({ colorListen }) => {
   //change the color of the text according to the button.
   const selectText = () => {
     if (color === "rojo") {
-      return <div className="font-bold text-red-800">Prueba Basica</div>;
+      return <div className="font-bold text-red-800">Prueba Básica</div>;
     } else if (color === "azul") {
-      return <div className="font-bold text-blue-800">Prueba Basica</div>;
+      return <div className="font-bold text-blue-800">Prueba Básica</div>;
     } else {
-      return <div className="font-bold text-white">Prueba Basica</div>;
+      return <div className="font-bold text-white">Prueba Básica</div>;
     }
   };
 
