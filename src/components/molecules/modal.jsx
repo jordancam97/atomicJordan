@@ -16,7 +16,7 @@ const Modal = ({colorSelect}) => {
 
   return (
     <>
-      <div className="flex flex-row w-full mt-5">
+      <div className="flex flex-column sm:flex-row w-full mt-5">
         <ButtonBlue stateModal={stateModal} />
         <ButtonRed stateModal={stateModal} />
       </div>
