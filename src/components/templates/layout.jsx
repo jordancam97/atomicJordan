@@ -1,9 +1,14 @@
 import React from 'react'
+import Organisms from '../organisms/Organisms'
 
-const layout = () => {
+const Layout = () => {
   return (
-    <div>layout</div>
-  )
+    <>
+      <div>
+        <Organisms />
+      </div>
+    </>
+  );
 }
 
-export default layout
+export default Layout

@@ -3,7 +3,7 @@ import { Button } from "primereact/button";
 
 const ButtonRed = ({ stateModal }) => {
   return (
-    <Button label="Danger" severity="danger" onClick={() => stateModal(true)} />
+    <Button label="Danger" severity="danger" onClick={() => stateModal(true, "rojo")} />
   );
 };
 
