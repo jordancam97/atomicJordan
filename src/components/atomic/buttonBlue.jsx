@@ -5,7 +5,7 @@ const ButtonBlue = ({ stateModal }) => {
   return (
     <div className="w-full flex align-items-center justify-content-center">
       <Button
-        className="w-8 border-solid border-blue-800 border-round-lg border-3 bg-blue-700"
+        className="boxButton_button w-8 border-solid border-blue-800 border-round-lg border-3 bg-blue-700"
         onClick={() => stateModal(true, "azul")}
       />
     </div>

@@ -3,6 +3,7 @@
     .boxInfo {
         width: 200px;
         height: 225px;
+        padding: 10px;
     }
 }
 
@@ -11,6 +12,7 @@
     .boxInfo {
         width: 290px;
         height: 210px;
+        padding: 10px;
     }
 }
 
@@ -25,7 +27,21 @@
     .boxInfo {
         width: 43vh;
         height: 34vh;
+        font-size: 2.5vh;
+        border-width: 0.5vh !important;
     }
+
+    .boxButton{
+        margin-top: 5vh !important;
+    }
+
+    .boxButton_button{
+        height: 6vh;
+        border-radius: .95vh !important;
+        border-width: .5vh !important;
+    }
+
+
 }
 
 @media screen and (min-width: 1500px) {}
