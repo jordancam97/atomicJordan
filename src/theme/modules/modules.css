@@ -1,3 +1,4 @@
-/* #pr_id_2_content {
-    display: none !important;
-} */
+.boxInfo {
+    width: 43vh;
+    height: 34vh;
+}
